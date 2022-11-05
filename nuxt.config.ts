@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
     app:{
         head:{
-            title: "周年庆-王者荣耀-腾讯游戏",
+            title: "遇见繁星老福特峡谷七周年",
             meta: [
-                { name: 'description', content: '周年庆-王者荣耀-腾讯游戏' },
+                { name: 'description', content: '遇见繁星老福特峡谷七周年' },
             ],
         }
     },

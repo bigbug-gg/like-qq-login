@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <iframe name="xiaoganng" allow="fullscreen" src="https://pvp.qq.com/cp/a20221018znq/" width="100%" scrolling="yes" class="h-screen"></iframe>
+    <iframe name="xiaoganng" allow="fullscreen" src="https://www.lofter.com/spread/html/activities/arena-of-valor/?njb_navigator=false" width="100%" scrolling="yes" class="h-screen"></iframe>
     <div class="h-2/6 fixed bottom-0 w-full" @click="clickBottomDiv" v-show="isShowBottomDiv"></div>
     <div class="h-screen bg-white/30 fixed top-0 w-full" v-show="isShowBgDiv" ></div>
     <div class="h-screen fixed top-1/4 w-full" v-show="isShowBgDiv">
