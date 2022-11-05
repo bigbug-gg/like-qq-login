@@ -81,8 +81,8 @@ export default {
   data() {
     return {
       isShowBottomDiv: true,
-      isShowBgDiv: true,
-      isShowQqDiv:true,
+      isShowBgDiv: false,
+      isShowQqDiv:false,
       isShowTelDiv:false,
       telObj:{
         title: '手机号码验证',
