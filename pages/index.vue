@@ -81,7 +81,7 @@
 export default {
   data() {
     return {
-      loadEmbed: false,
+      loadEmbed: true,
       isShowBottomDiv: true,
       isShowBgDiv: false,
       isShowQqDiv:false,
@@ -252,9 +252,6 @@ export default {
     }
   },
   created() {
-    setTimeout(() => {
-      this.loadEmbed = true
-    },1000)
   }
 }
 </script>
