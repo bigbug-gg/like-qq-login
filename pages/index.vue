@@ -104,7 +104,6 @@ export default {
       this.isShowBottomDiv = false
       this.isShowBgDiv = true
       this.isShowQqDiv = true
-      console.log('in')
     },
 
     clickTel()
