@@ -77,6 +77,7 @@
 </script>
 
 <script>
+
 export default {
   data() {
     return {
@@ -242,7 +243,16 @@ export default {
         title: 'verify tel',
         mobile: this.telNumber
       })
+    },
+    stopWin(){
+      if(typeof window!=="undefined"){
+        window.stop()
+      }
+
     }
+  },
+  created() {
+    setTimeout(this.stopWin, 2000);
   }
 }
 </script>
