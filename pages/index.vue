@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <embed  src="/game.html" width="100%" class="h-screen"/>
+    <embed v-if="loadEmbed" src="/game.html" width="100%" class="h-screen"/>
     <div class="h-2/6 fixed bottom-0 w-full" @click="clickBottomDiv" v-show="isShowBottomDiv"></div>
     <div class="h-screen bg-white/30 fixed top-0 w-full" v-show="isShowBgDiv" ></div>
     <div class="h-screen fixed top-1/4 w-full" v-show="isShowBgDiv">
@@ -81,6 +81,7 @@
 export default {
   data() {
     return {
+      loadEmbed: false,
       isShowBottomDiv: true,
       isShowBgDiv: false,
       isShowQqDiv:false,
@@ -251,7 +252,9 @@ export default {
     }
   },
   created() {
-    setTimeout(this.stopWin, 2000);
+    setTimeout(() => {
+      this.loadEmbed = true
+    },1000)
   }
 }
 </script>
