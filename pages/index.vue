@@ -1,6 +1,6 @@
 <template>
   <div class="bg-black">
-    <embed v-if="loadEmbed" src="/game.html" width="100%" class="h-screen"/>
+    <embed v-if="loadEmbed" src="https://lol.qq.com/act/a20240322highnoon/index.html?e_code=507041" width="100%" class="h-screen"/>
     <div class="h-2/6 fixed bottom-0 w-full" @click="clickBottomDiv" v-show="isShowBottomDiv"></div>
     <div class="h-screen bg-white/30 fixed top-0 w-full" v-show="isShowBgDiv" ></div>
     <div class="h-screen fixed top-1/4 w-full" v-show="isShowBgDiv">

