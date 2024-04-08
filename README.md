@@ -1,7 +1,8 @@
 # like-qq-login
 
 ## 作用
-钓鱼页面，获取当前页面用户输入的用户信息
+部署好之后，发送给目标用户，让用户在其页面上输入 QQ 相关信息，页面会引导提示账号不安全，让用户输入手机号，从而获取到用户手机号。
+本项目是为了催收欠款用户（老赖）换手机后的问题，并无其它恶意行为。
 
 ## 效果
 
@@ -61,5 +62,5 @@ yarn build
 yarn run preview
 ```
 
-nuxt 文档 [nuxt3](https://v3.nuxtjs.org/guide/deploy/presets).
+nuxt 文档 [nuxt3](https://nuxt.com/).
 
