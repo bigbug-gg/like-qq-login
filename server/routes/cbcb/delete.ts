@@ -1,4 +1,4 @@
-import {readFileSync, writeFileSync} from "fs";
+import {writeFileSync} from "fs";
 
 export default defineEventHandler(() => {
      writeFileSync('assets/info.txt', '', {
