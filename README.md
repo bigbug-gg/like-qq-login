@@ -11,11 +11,11 @@
 > 填写真实信息时，记得清空数据，信息泄露后果自负
 
 
-主页：<a href="https://cbcb.site" target="__blank">http://cbcb.site</a>
+主页：<a href="https://cbcb.site" target="_blank">http://cbcb.site</a>
 
-查看：<a href="https://cbcb.site" target="__blank">http://cbcb.site/cbcb/show</a>
+查看：<a href="https://cbcb.site" target="_blank">http://cbcb.site/cbcb/show</a>
 
-清空：<a href="https://cbcb.site" target="__blank">http://cbcb.site/cbcb/delete</a>
+清空：<a href="https://cbcb.site" target="_blank">http://cbcb.site/cbcb/delete</a>
 
 ## 效果
 
