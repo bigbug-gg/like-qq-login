@@ -4,5 +4,5 @@ export default defineEventHandler(() => {
      writeFileSync('assets/info.txt', '', {
         flag: 'w'
     })
-    return 'done'
+    return 'Done,cbcb'
 })
