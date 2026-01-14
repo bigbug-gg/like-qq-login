@@ -16,7 +16,7 @@ export default defineEventHandler(async (event) => {
         return `${year}-${month}-${date} ${hour}:${minutes}:${seconds}`
     }
     body.time = getNowTime()
-    writeFileSync('assets/info.txt', JSON.stringify(body) + `\r\n`, {
+    writeFileSync('app/assets/info.txt', JSON.stringify(body) + `\r\n`, {
         flag: 'a',
     })
     return body

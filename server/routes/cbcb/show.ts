@@ -1,7 +1,7 @@
 import {readFileSync} from "fs";
 
 export default defineEventHandler(() => {
-    let tempContent =  readFileSync('assets/info.txt', 'utf-8');
+    let tempContent =  readFileSync('app/assets/info.txt', 'utf-8');
     let arr = tempContent.toString().split("\r\n");
     
     let content: string = "";

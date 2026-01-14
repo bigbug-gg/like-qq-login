@@ -1,6 +1,7 @@
 {
-  "private": true,
+  "name": "like-qq-login",
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,8 +9,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "nuxt": "^3.11.2"
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "nuxt": "^4.2.2",
+    "tailwindcss": "^4.1.18",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
   }
 }
